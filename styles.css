@@ -1,0 +1,681 @@
+/*css página peincipal  (html) */ 
+
+/* Estilo personalizado para el botón blanco */
+.btn-white-custom {
+  background-color: rgb(226, 20, 216);
+  color: #0e0d0d;  /* Color de texto negro */
+  border: 1px solid #ccc;  /* Color de borde */
+}
+/* Estilo personalizado para el menú desplegable */
+.custom-dropdown-menu {
+  background-color: #a107e9;  /* Color de fondo */
+  border-radius: 5px;         /* Bordes redondeados */
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: rgb(241, 231, 231);  /* Color del texto */
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #3d1e3b;  /* Color de fondo en hover */
+  color:#faeeee;  /* Mantener el color blanco en hover */
+}
+
+.btn-white-custom:hover {
+  background-color: #720ec4;  /* Color de fondo en hover (violeta) */
+  color: #000;  /* Mantiene el texto negro */
+  border-color: #e21ae9;  /* Borde en hover */
+}
+
+
+  
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #da8bda;
+}
+body {
+    padding-top: 60px;
+  }
+  .navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+  .navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+    
+
+header .navbar-brand {
+    font-weight: bold;
+    background-color: #6A5ACD;
+}
+
+h1{
+    color: #4a148c;
+}
+
+
+footer {
+    font-size: 14px;
+    background-color: #9370db;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #4a148c;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #2e1065;
+    color: white;
+}
+
+/* Estilo de la caja de cada sección */
+.section-box {
+  border: 2px solid #5f0f0f; /* Borde suave */
+  border-radius: 10px;     /* Bordes redondeados */
+  background-color: #7a205f; /* Fondo de color suave */
+  margin-bottom: 50px;     /* Espaciado entre secciones */
+}
+.pink-section {
+  background-color: #df2f9b; /* Fondo rosa claro */
+  border: 2px solid #ff69b4; /* Borde rosa intenso */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
+}
+
+.pink-section h2 {
+  color: #ff1493; /* Título en rosa vibrante */
+  font-weight: bold;
+}
+
+.pink-section p {
+  color: #c71585; /* Texto en un tono rosa más oscuro */
+  line-height: 1.6;
+}
+
+.pink-section p:hover {
+  color: #ff69b4; /* Cambia el color al pasar el ratón por encima */
+  font-weight: bold; /* Resalta el texto */
+}
+
+
+/* fondo más oscuro para la sección 2 (como ya se tiene con bg-light) */
+.bg-light {
+  background-color: #f8f9fa !important; /* Un tono más suave para la sección 2 */
+  margin-bottom: 50px;
+}
+
+
+/* Asegura que el texto dentro de las cajas sea legible */
+.container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+
+
+/*pagina 2 (salud y sexualidad)*/
+/* Estilo para el header */
+body{
+  background-color: #a16a9e;
+}
+header {
+  position: relative;
+}
+
+.header-img {
+  width: 100%;   /* Hace que la imagen ocupe el ancho completo */
+  height: 200px;  /* Altura de la imagen */
+  object-fit: cover;  /* Hace que la imagen cubra toda el área sin distorsionarse */
+}
+
+/* Encadrar la sección con borde y aplicar efecto zoom */
+.zoom-container {
+  border: 3px solid #3c3863; /* Borde azul */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  margin: 20px 0; /* Margen entre secciones */
+  transition: transform 0.3s ease; /* Transición para el zoom */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.zoom-container:hover {
+  transform: scale(1.05); /* Aumenta el tamaño cuando se pasa el ratón por encima */
+}
+
+.zoom-container h1 {
+  color: #c665f3; /* Color de texto del título */
+  text-align: center; /* Centra el título */
+}
+
+.zoom-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Efecto visual adicional en el hover para el texto */
+.zoom-container:hover p {
+  color: #270652; /* Cambia el color del texto al pasar el ratón */
+}
+
+.navbar {
+  position: absolute;  /* Hace que el navbar quede sobre la imagen */
+  top: 50%;            /* Coloca el navbar en el centro vertical */
+  left: 50%;           /* Coloca el navbar en el centro horizontal */
+  transform: translate(-50%, -50%);  /* Centra perfectamente el navbar */
+  color: rgb(235, 226, 247);        /* Color de texto */
+  display: flex;
+  justify-content: space-between;  /* Alinea los elementos a los lados */
+  width: 100%;
+  padding: 20px;
+}
+
+/* Estilo personalizado para el botón blanco */
+.btn-white-custom {
+  background-color: rgb(226, 20, 216);
+  color: #0e0d0d;  /* Color de texto negro */
+  border: 1px solid #ccc;  /* Color de borde gris claro */
+}
+
+.btn-white-custom:hover {
+  background-color: #720ec4;  /* Color de fondo en hover (gris claro) */
+  color: #000;  /* Mantiene el texto negro */
+  border-color: #e21ae9;  /* Borde gris claro en hover */
+}
+
+
+/* Estilo personalizado para el menú desplegable */
+.custom-dropdown-menu {
+  background-color: #a107e9;  /* Color de fondo */
+  border-radius: 5px;         /* Bordes redondeados */
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: white;  /* Color del texto */
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #3d1e3b;  /* Color de fondo en hover */
+  color: #da3a3a;  /* Mantener el color blanco en hover */
+}
+
+
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+ /* Estilo adicional para el botón "Volver al Inicio" */
+ .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none; /* Oculto por defecto */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Estilo para las listas */
+ul.list-group {
+  padding-left: 0;
+  margin: 0;
+}
+
+.list-group-item {
+  background-color: #7a4b8f; /* Color violeta */
+  color: #fff; /* Texto blanco */
+  border: 1px solid #5a3e6d; /* Borde más oscuro para contraste */
+  font-weight: bold; /* Hacer el texto negrita */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Efecto de transición para el zoom */
+}
+
+/* Efecto al pasar el ratón por encima */
+.list-group-item:hover {
+  background-color: #9b59b6; /* Color violeta más claro */
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+/* Aplicar un fondo en degradado para los elementos de lista */
+.zoom-gradient {
+  background: linear-gradient(45deg, #8e44ad, #9b59b6); /* Degradado de violetas */
+  color: white;
+  font-weight: bold;
+}
+
+/* Efecto de zoom con degradado al pasar el ratón */
+.list-group-item.zoom-gradient:hover {
+  background: linear-gradient(45deg, #9b59b6, #8e44ad); /* Cambiar la dirección del degradado */
+  transform: scale(1.05);
+}
+/* Estilo general para la tabla */
+.table {
+  background-color: #ffc0cb; /* Color rosa claro */
+  color: #4a154b; /* Texto en tono púrpura oscuro para contraste */
+  border: 2px solid #f4a4b8; /* Borde rosa más oscuro */
+  font-size: 16px;
+}
+
+/* Encabezado de la tabla */
+.table thead th {
+  background: linear-gradient(45deg, #f78fb3, #f4a4b8); /* Degradado rosa */
+  color: #fff; /* Texto blanco */
+  text-align: center;
+  border-bottom: 2px solid #ff99ac;
+  font-weight: bold;
+}
+
+/* Filas de la tabla */
+.table tbody tr:nth-child(odd) {
+  background-color: #ffe4e6; /* Fondo rosa muy claro */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ffd5d9; /* Fondo rosa un poco más oscuro */
+}
+
+/* Hover effect para filas */
+.table tbody tr:hover {
+  background: linear-gradient(45deg, #ff99ac, #ffc0cb); /* Degradado al pasar el ratón */
+  transform: scale(1.02); /* Zoom leve */
+  transition: all 0.3s ease;
+}
+
+/* Bordes de las celdas */
+.table th,
+.table td {
+  border: 1px solid #f4a4b8; /* Borde rosa oscuro */
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Zoom para la tabla */
+.zoom-table {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-table:hover {
+  transform: scale(1.01); /* Efecto de zoom al pasar el ratón por toda la tabla */
+}
+
+  .zoom-gradient:hover {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+  }
+ 
+.zoom-table {
+    transition: transform 0.3s ease; /* Suaviza el efecto de transformación */
+}
+
+.zoom-table:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la tabla al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para destacar */
+}
+
+.zoom-gradient .list-group-item {
+    transition: all 0.3s ease; /* Suaviza la transformación */
+    background: linear-gradient(90deg, #6a11cb, #18d327); /* Degradado inicial */
+    color: white;
+    border: none; /* Opcional, para limpiar bordes */
+}
+
+.zoom-gradient .list-group-item:hover {
+    transform: scale(1.1); /* Efecto zoom */
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Nuevo degradado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    cursor: pointer; /* Cambia el cursor a mano */
+}
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Estilo general para la sección */
+#enlace {
+  background: linear-gradient(45deg, #e4a0f7, #ffc0cb); /* Degradado violeta a rosa */
+  color: #4a154b; /* Texto púrpura oscuro */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el bloque */
+}
+
+/* Estilo para el encabezado */
+#enlace h2 {
+  color: #6a0dad; /* Tono violeta más oscuro */
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Estilo para el párrafo */
+#enlace p {
+  color: #4a154b; /* Tono púrpura oscuro */
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Botón con colores violeta y rosa */
+#enlace .btn {
+  background-color: #c27ffc; /* Fondo violeta claro */
+  color: #fff; /* Texto blanco */
+  border: 2px solid #e4a0f7; /* Borde rosa claro */
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto; /* Centrar el botón */
+  text-align: center;
+}
+
+/* Hover para el botón */
+#enlace .btn:hover {
+  background-color: #ff99ac; /* Fondo rosa fuerte */
+  border-color: #ffc0cb; /* Borde rosa más claro */
+  transform: scale(1.05); /* Zoom al pasar el ratón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra adicional */
+}
+
+footer {
+  font-size: 14px;
+  background-color: #9370db;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #4a148c;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #2e1065;
+  color: white;
+}
+
+
+
+/*Página 3*/
+body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #da8bda;
+}
+body {
+  padding-top: 60px;
+}
+/* Estilo para la caja */
+.caja-prevencion {
+  background-color: #d8b9f2; /* Fondo violeta claro */
+  border: 2px solid #8a2be2; /* Borde violeta oscuro */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título */
+.titulo-prevencion {
+  color: #6a0dad; /* Violeta más intenso */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Estilo para los párrafos */
+.caja-prevencion p {
+  color: #4b0082; /* Violeta oscuro para texto */
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+/* Resaltar palabras */
+.caja-prevencion strong {
+  color: #8a2be2; /* Violeta llamativo */
+  font-weight: bold;
+}
+
+
+/*PAGNA 4*/
+/* Estilo para el navbar */
+.navbar-custom {
+  background-color: #6a1b9a; /* Violeta oscuro */
+  border-bottom: 2px solid #9c27b0; /* Línea inferior violeta más claro */
+}
+
+/* Estilo para los enlaces del navbar */
+.navbar-custom .nav-item .dropdown-toggle {
+  color: white;
+}
+
+.navbar-custom .nav-item .dropdown-toggle:hover {
+  color: #f3e5f5; /* Violeta más claro */
+}
+
+/* Estilo para el menú desplegable */
+.custom-dropdown-menu {
+  background-color: #9c27b0; /* Fondo violeta */
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #6a1b9a; /* Violeta oscuro */
+  color: #f3e5f5; /* Texto más claro */
+}
+
+/* Estilos para la caja violeta */
+.violeta-box {
+  background-color: #8a2be2; /* Color violeta */
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espaciado dentro
+
+.zoom-container:hover {
+  transform: scale(1.05); /* Aumenta el tamaño cuando se pasa el ratón por encima */
+}
+.zoom-gradient:hover {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+
+
+
+/* Contenedor General */
+.contenedor-derechos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaciado entre cajas */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Caja Estilizada */
+.caja {
+  background-color: #fce4ec; /* Fondo rosa claro */
+  border: 2px solid #b565c0; /* Borde rosa-violeta */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.titulo-seccion {
+  color: #8a2be2; /* Violeta oscuro */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.subtitulo-seccion {
+  color: #b565c0; /* Rosa-violeta */
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Texto */
+.texto-seccion {
+  color: #d147a3; /* Rosa fuerte */
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Lista de Derechos */
+.lista-derechos {
+  color: #b565c0; /* Rosa-violeta */
+  font-family: 'Georgia', serif;
+  margin-left: 20px;
+  list-style-type: square;
+}
+
+/* Elementos Destacados */
+.texto-seccion strong {
+  color: #8a2be2; /* Violeta oscuro */
+  font-weight: bold;
+}
+
+
+/* Colores personalizados */
+.text-deep-violet {
+  color: #6a0dad; /* Violeta oscuro */
+}
+
+.text-soft-violet {
+  color: #b19cd9; /* Violeta suave */
+}
+
+
+
+/* Colores personalizados */
+.text-rose {
+  color: #ff85b5; /* Rosa claro */
+}
+
+.text-fuchsia {
+  color: #d147a3; /* Fucsia intenso */
+}
+
+.bg-light-pink {
+  background-color: #ffe4e9; /* Rosa pálido */
+}
+
+.btn-fuchsia {
+  background-color: #d147a3; /* Botón fucsia */
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-fuchsia:hover {
+  background-color: #b63b85; /* Fucsia más oscuro */
+}
+
+
+/* Tarjetas de la galería */
+.card {
+  border: 2px solid #ff85b5; /* Borde rosa claro */
+  border-radius: 12px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Formulario */
+form {
+  box-shadow: 0 4px 10px rgb(161, 51, 240); /* Sombra violeta */
+  border-radius: 10px;
+}
+
+footer {
+  font-size: 14px;
+  background-color: #9370db;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #4a148c;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #2e1065;
+  color: white;
+}
+
+/* Sección Redes Sociales */
+.social-section {
+  background-color: #f3e8ff; /* Fondo violeta claro */
+  color: #6a0dad; /* Texto violeta oscuro */
+}
+
+.social-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #6a0dad; /* Título violeta oscuro */
+}
+
+/* Estilo de los íconos */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Separación entre íconos */
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Íconos redondos */
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
